@@ -6,6 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
+  background-color: #fafafa;
+  color: #222;
+  overflow-x: hidden;
 }
 
 code {
@@ -16,8 +19,11 @@ code {
 a {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
 }
 
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
