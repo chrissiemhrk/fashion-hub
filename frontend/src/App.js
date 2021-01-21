@@ -8,7 +8,18 @@ function App() {
           <a href="/">Fashion Hub</a>
         </div>
         <nav>
-          <ul>
+          <ul className="shopping-category">
+            <li>
+              <a href="/women">Women</a>
+            </li>
+            <li>
+              <a href="/men">Men</a>
+            </li>
+            <li>
+              <a href="/accessories">Accessories</a>
+            </li>
+          </ul>
+          <ul className="cart-signin">
             <li>
               <a href="/cart">Cart</a>
             </li>
