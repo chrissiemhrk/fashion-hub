@@ -21,7 +21,7 @@ header {
     text-transform: capitalize;
     letter-spacing: 0.2rem;
     font-weight: 600;
-    border-bottom: 1px solid #000;
+
     width: -moz-available;
     text-align: center;
     padding: 1rem;
@@ -31,7 +31,8 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border-bottom: 1px solid #000;
+    border: 1px solid #000;
+
     width: -moz-available;
     padding: 1rem;
 
@@ -60,8 +61,7 @@ main {
 
 footer {
   grid-area: footer;
-  padding-left: 2rem;
-  padding-right: 2rem;
+
   a {
     &:hover {
       color: #a22c29;
@@ -92,7 +92,7 @@ footer {
 
   .footer-bottom {
     text-align: center;
-
+    font-size: 0.8rem;
     a {
       color: #a22c29;
     }
