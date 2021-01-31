@@ -66,16 +66,16 @@ function App() {
           </nav>
           <ul className="social-media">
             <li>
-              <a href="facebook.com">Facebook</a>
+              <a href="https://facebook.com">Facebook</a>
             </li>
             <li>
-              <a href="instagram.com">Instagram</a>
+              <a href="https://instagram.com">Instagram</a>
             </li>
             <li>
-              <a href="twitter.com">Twitter</a>
+              <a href="https://twitter.com">Twitter</a>
             </li>
             <li>
-              <a href="pinterest.com">Pinterest</a>
+              <a href="https://pinterest.com">Pinterest</a>
             </li>
           </ul>
         </div>
