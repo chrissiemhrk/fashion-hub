@@ -1,0 +1,45 @@
+header {
+  grid-area: header;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+
+    width: -moz-available;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid #000;
+
+    width: -moz-available;
+    padding: 1rem;
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      li {
+        margin-right: 1rem;
+        &:last-child {
+          margin-right: 0rem;
+        }
+
+        a {
+          &:hover {
+            color: #a22c29;
+          }
+        }
+      }
+    }
+  }
+}
