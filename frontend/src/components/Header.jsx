@@ -20,8 +20,8 @@ export default function Header() {
           <li>
             <a href="/cart">
               <svg
-                width="35"
-                height="35"
+                width="28"
+                height="28"
                 viewBox="0 0 35 35"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -43,8 +43,8 @@ export default function Header() {
           <li>
             <a href="/signin">
               <svg
-                width="35"
-                height="35"
+                width="28"
+                height="28"
                 viewBox="0 0 35 35"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
