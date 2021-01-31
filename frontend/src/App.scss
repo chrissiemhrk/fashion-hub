@@ -1,5 +1,6 @@
-// component and page stylings
+// components and pages stylings
 @import "./scss/header.scss";
+@import "./scss/footer.scss";
 
 //global stylings
 
@@ -16,44 +17,4 @@
 
 main {
   grid-area: main;
-}
-
-footer {
-  grid-area: footer;
-
-  a {
-    &:hover {
-      color: #a22c29;
-    }
-  }
-  .footer-top {
-    display: flex;
-    justify-content: space-around;
-    border: 1px solid #000;
-    padding: 2rem;
-
-    .logo {
-      font-size: 6rem;
-      letter-spacing: 0.5rem;
-      margin: auto 0rem;
-    }
-
-    ul {
-      li {
-        margin-bottom: 0.8rem;
-      }
-    }
-
-    .shopping-category {
-      margin-bottom: 5rem;
-    }
-  }
-
-  .footer-bottom {
-    text-align: center;
-    font-size: 0.8rem;
-    a {
-      color: #a22c29;
-    }
-  }
 }
