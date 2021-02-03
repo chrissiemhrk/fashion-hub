@@ -1,6 +1,7 @@
 // components and pages stylings
 @import "./components/header/header.scss";
 @import "./components/footer/footer.scss";
+@import "./pages/homepage/homepage.scss";
 
 //global stylings
 
@@ -13,8 +14,4 @@
   grid-template-columns: 1fr;
   grid-template-rows: 7rem 1fr;
   height: 100vh;
-}
-
-main {
-  grid-area: main;
 }
