@@ -10,10 +10,9 @@ header {
     text-transform: capitalize;
     letter-spacing: 0.2rem;
     font-weight: 600;
-
     width: -moz-available;
     text-align: center;
-    padding: 1rem;
+    padding: 0.7rem;
   }
 
   nav {
@@ -21,9 +20,8 @@ header {
     flex-direction: row;
     justify-content: space-around;
     border: 1px solid #000;
-
     width: -moz-available;
-    padding: 1rem;
+    padding: 0.7rem;
 
     ul {
       display: flex;
