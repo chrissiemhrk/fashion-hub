@@ -1,3 +1,28 @@
 main {
   grid-area: main;
 }
+
+.content {
+  img {
+    width: 100%;
+    height: 62%;
+  }
+
+  .banner {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    margin-top: -0.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.98rem;
+    .banner-text {
+      font-weight: 600;
+    }
+  }
+}
