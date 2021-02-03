@@ -1,4 +1,4 @@
-export default function Header() {
+export default function Footer() {
   return (
     <footer>
       <div className="footer-top">
