@@ -7,10 +7,11 @@ export default function HomePage() {
       <Header />
       <main className="content">
         <img
+          className="content-image"
           src="https://res.cloudinary.com/chrissiemhrk/image/upload/v1612353748/fashion-hub/alyssa-strohmann-TS--uNw-JqE-unsplash_1_xf15ic.jpg"
           alt="clothes and shoes neatly arranged on a dark gray background"
         />
-        <div className="banner">
+        <section className="banner">
           <p className="banner-text">Fashion Hub</p>
           <p className="banner-text">Fashion Hub</p>
           <p className="banner-text">Fashion Hub</p>
@@ -19,7 +20,24 @@ export default function HomePage() {
           <p className="banner-text">Fashion Hub</p>
           <p className="banner-text">Fashion Hub</p>
           <p className="banner-text">Fashion Hub</p>
-        </div>
+        </section>
+        <section className="women">
+          <div className="women-text">
+            <h1>Lorem Ipsum</h1>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem
+              praesentium, quidem quo voluptatum ut ad nam a repudiandae
+              incidunt vero assumenda libero aperiam optio voluptas non sunt
+              facilis laborum quae.
+            </p>
+          </div>
+          <div className="women-image">
+            <img
+              src="https://res.cloudinary.com/chrissiemhrk/image/upload/v1612357224/fashion-hub/vladimir-yelizarov-p5SXRTjaPTc-unsplash_1_da0fq3.jpg"
+              alt="Woman sitting on a picnic blanket in a garden"
+            />
+          </div>
+        </section>
       </main>
       <Footer />
     </div>
