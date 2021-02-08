@@ -6,11 +6,14 @@ export default function HomePage() {
     <div className="grid-container">
       <Header />
       <main className="content">
-        <img
-          className="content-image"
-          src="https://res.cloudinary.com/chrissiemhrk/image/upload/v1612353748/fashion-hub/alyssa-strohmann-TS--uNw-JqE-unsplash_1_xf15ic.jpg"
-          alt="clothes and shoes neatly arranged on a dark gray background"
-        />
+        <section className="hero">
+          <img
+            className="content-image"
+            src="https://res.cloudinary.com/chrissiemhrk/image/upload/v1612353748/fashion-hub/alyssa-strohmann-TS--uNw-JqE-unsplash_1_xf15ic.jpg"
+            alt="clothes and shoes neatly arranged on a dark gray background"
+          />
+        </section>
+
         <section className="banner">
           <p className="banner-text">Fashion Hub</p>
           <p className="banner-text">Fashion Hub</p>
