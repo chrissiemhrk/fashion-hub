@@ -14,3 +14,29 @@
     font-weight: 600;
   }
 }
+
+// Responsive Styling
+@media (max-width: 600px) {
+  .banner {
+    p {
+      &:nth-child(6),
+      &:nth-child(7),
+      &:nth-child(8) {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .banner {
+    p {
+      &:nth-child(5),
+      &:nth-child(6),
+      &:nth-child(7),
+      &:nth-child(8) {
+        display: none;
+      }
+    }
+  }
+}

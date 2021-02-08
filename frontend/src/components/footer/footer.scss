@@ -37,3 +37,10 @@ footer {
     }
   }
 }
+
+// Responsive Styling
+@media (max-width: 550px) {
+  .footer-top {
+    flex-direction: column;
+  }
+}

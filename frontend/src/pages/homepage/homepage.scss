@@ -46,3 +46,45 @@ main {
     }
   }
 }
+
+// Responsive Styling
+@media (max-width: 550px) {
+  .content {
+    .men,
+    .women {
+      flex-direction: column;
+      margin-bottom: 2rem;
+      .women-text,
+      .men-text {
+        width: 100%;
+        order: 1;
+      }
+
+      .women-image,
+      .men-image {
+        width: 70%;
+        height: 60%;
+        display: block;
+        margin: 0rem auto;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .content {
+    .hero {
+      height: 18%;
+    }
+    .men,
+    .women {
+      flex-direction: column;
+      margin-bottom: 5.5rem;
+
+      .women-image,
+      .men-image {
+        width: 90%;
+      }
+    }
+  }
+}

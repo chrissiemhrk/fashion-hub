@@ -17,3 +17,16 @@
   height: 100vh;
   padding: 0rem 3rem;
 }
+
+// Responsive Styling
+@media (max-width: 999px) {
+  .grid-container {
+    padding: 0rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .grid-container {
+    margin-left: -1rem;
+  }
+}
