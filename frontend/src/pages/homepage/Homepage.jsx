@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
+import Banner from "../../components/banner/Banner";
 
 export default function HomePage() {
   return (
@@ -14,16 +15,7 @@ export default function HomePage() {
             alt="clothes and shoes neatly arranged on a dark gray background"
           />
         </section>
-        <section className="banner">
-          <p className="banner-text">Fashion Hub</p>
-          <p className="banner-text">Fashion Hub</p>
-          <p className="banner-text">Fashion Hub</p>
-          <p className="banner-text">Fashion Hub</p>
-          <p className="banner-text">Fashion Hub</p>
-          <p className="banner-text">Fashion Hub</p>
-          <p className="banner-text">Fashion Hub</p>
-          <p className="banner-text">Fashion Hub</p>
-        </section>
+        <Banner />
         <section className="women">
           <div className="women-text">
             <h1>Lorem Ipsum</h1>
@@ -47,8 +39,8 @@ export default function HomePage() {
         <section className="men">
           <div className="men-image">
             <img
-              src="https://res.cloudinary.com/chrissiemhrk/image/upload/v1612357224/fashion-hub/vladimir-yelizarov-p5SXRTjaPTc-unsplash_1_da0fq3.jpg"
-              alt="Woman sitting on a picnic blanket in a garden"
+              src="https://res.cloudinary.com/chrissiemhrk/image/upload/v1612351261/fashion-hub/sour-moha-gzAQQUfcC-E-unsplash_1_caxxvs.jpg"
+              alt="Man standing in front of the beach"
             />
           </div>
           <div className="men-text">
@@ -59,10 +51,14 @@ export default function HomePage() {
               incidunt vero assumenda libero aperiam optio voluptas non sunt
               facilis laborum quae.
             </p>
-            <button>View Men's Collection</button>
+            <button>
+              <Link to="men"> View Men's Collection</Link>
+            </button>
           </div>
         </section>
+        <Banner />
       </main>
+
       <Footer />
     </div>
   );
