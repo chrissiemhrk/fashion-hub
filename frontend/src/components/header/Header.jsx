@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Header() {
   return (
     <header>
@@ -7,18 +9,18 @@ export default function Header() {
       <nav>
         <ul className="shopping-category">
           <li>
-            <a href="/women">Women</a>
+            <Link to="/women">Women</Link>
           </li>
           <li>
-            <a href="/men">Men</a>
+            <Link to="/men">Men</Link>
           </li>
           <li>
-            <a href="/accessories">Accessories</a>
+            <Link to="/accessories">Accessories</Link>
           </li>
         </ul>
         <ul className="cart-signin">
           <li>
-            <a href="/cart">
+            <Link to="/cart">
               <svg
                 width="22"
                 height="22"
@@ -38,10 +40,10 @@ export default function Header() {
                   </clipPath>
                 </defs>
               </svg>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/signin">
+            <Link to="/signin">
               <svg
                 width="22"
                 height="22"
@@ -54,7 +56,7 @@ export default function Header() {
                   fill="black"
                 />
               </svg>
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>

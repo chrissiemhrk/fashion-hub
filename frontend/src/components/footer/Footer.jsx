@@ -1,20 +1,22 @@
+import { Link } from "react-router-dom";
+
 export default function Footer() {
   return (
     <footer>
       <div className="footer-top">
         <div className="logo">
-          <a href="/">FH</a>
+          <Link to="/">FH</Link>
         </div>
         <nav>
           <ul className="shopping-category">
             <li>
-              <a href="/women">Women</a>
+              <Link to="/women">Women</Link>
             </li>
             <li>
-              <a href="/men">Men</a>
+              <Link to="/men">Men</Link>
             </li>
             <li>
-              <a href="/accessories">Accessories</a>
+              <Link to="/accessories">Accessories</Link>
             </li>
           </ul>
           <ul className="contact">
