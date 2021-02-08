@@ -11,35 +11,37 @@ main {
     }
   }
 
-  .banner {
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
-    overflow: hidden;
+  .women,
+  .men {
     display: flex;
     justify-content: space-between;
-    height: 35px;
-    margin-left: -2rem;
-    margin-right: -2rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 0.98rem;
-    .banner-text {
-      font-weight: 600;
-    }
-  }
-
-  .women {
-    display: flex;
-    justify-content: space-between;
-    .women-text {
+    height: 30%;
+    .women-text,
+    .men-text {
       width: 40%;
       margin: auto;
+      line-height: 1.5;
+
+      button {
+        border: 1px solid #a22c29;
+        background-color: inherit;
+        padding: 0.9rem 2rem;
+        font-size: 0.9rem;
+        cursor: pointer;
+        &:hover {
+          background-color: #a22c29;
+          color: #fafafa;
+          border: 1px solid #222;
+          transition: 0.3s ease-out;
+        }
+      }
     }
-    .women-image {
+    .women-image,
+    .men-image {
       width: 42%;
       img {
         width: 100%;
-        height: 70%;
+        height: 100%;
       }
     }
   }
